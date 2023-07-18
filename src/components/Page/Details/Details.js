@@ -10,7 +10,7 @@ function Details(props){
     return(
         <>
         <Header
-            pagina={PaymentResponse.pagina}
+            pagina={props.pagina}
             imgPrimeira = {Seta}
             imgSegunda = {Ponto}
         />
